@@ -3,6 +3,12 @@
 Generate an HTML file/folder audit report with TreeView, Dark Mode toggle,
 and click-to-open file details modal. Compatible with Windows PowerShell 5.1
 and servers without System.Web.
+
+.NOTES
+    Author: Anthony Rodriguez Jr.
+    Company: AIM IT Services
+    Use Case: File auditing and reporting
+    
 #>
 
 function New-FileDirectoryAuditReport {
@@ -397,3 +403,4 @@ $scripts
         Start-Process $OutputFile
     }
 }
+
